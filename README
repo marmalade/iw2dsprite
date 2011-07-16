@@ -1,2 +1,14 @@
-Sprite 1.PNG courtesy of TMO Games Studio
-www.teatro-magico.com.ar
+Iw2DSprite 
+
+This is a simple animated sprite class composed by CIw2dImage. It can handle rectangular sprites and iterate throughout while rendering each of them at a given position in order to create an animation.
+
+Examples of use and test cases (not unit tests indeed, but sort of) are included in the unit_tests folder along with their project file.
+
+Feel free to use this in any of your projects, just give some credit! Also contact me at leostera at gmail dot com if you have any comments or so.
+
+Thanks!
+
+Grün
+
+Sprite 1.PNG courtesy of TMO Games Studio ( www.teatro-magico.com.ar ) but it is not to be used without permission.
+

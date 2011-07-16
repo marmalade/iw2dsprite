@@ -1,0 +1,11 @@
+Notes: I do understand unit tests should only test specific methods and functionality but in this very case I found more useful to draw and iterate throughout the animation although that was tested previously in order to let the coder check that the class is working properly (as most of these test units work on an image and have visual results)
+
+Flip, Rotate, Resize:
+- Flip the sprite, rotate by degree, resize by (x,y) factor
+
+Alpha Blending, ColourKey:
+- Really needed colourkey? png can be used!
+
+FX.FadeOut, FadeIn:
+- All with duration in ms
+

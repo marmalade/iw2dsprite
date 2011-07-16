@@ -1,0 +1,18 @@
+# This .config.txt file documents configuration settings for your
+# application
+# The syntax is similar to that in .icf files:
+#
+# [GroupName]
+# Setting     Documentation for setting
+#
+# e.g.
+# [MyApplicationGroup]
+# MySetting   Description of what MySetting is for, its default values, etc
+
+[Sprites]
+1_w 		Width of the sprite
+1_h 		Height of the sprite
+1_frames 	Amount of frames of the animation
+2_w 		Width of the sprite
+2_h 		Height of the sprite
+2_frames 	Amount of frames of the animation

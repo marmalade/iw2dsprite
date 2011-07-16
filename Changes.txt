@@ -1,0 +1,25 @@
+- What does Test Unit X completed?
+  The test was completed by implementing the code behind the class and refactorizing accordingly after design and coding of the test.
+
+07.15.2011
+~ Modified project folder structure
+~ Modified Iw2DSprite main .mkb project to .mkf subproject
++ Added each test unit .mkb project
++ Added .mkf to each test unit .mkb
+
+07.14.2011
+~ Renamed methods to fit Marmalade nomenclature.
+
+07.13.2011
++ Added full auto-doc-comments of properties
+
+07.12.2011 - @ nite!
++ Test Unit Stepping completed.
+	Animation iterates through the spritesheet greatly.
++ Test Unit Copying completed.
+	Both copy constructor and = operator work great.
+
+07.12.2011 - around 1 am
++ Test Unit Loading completed.
++ Test Unit Drawing completed.
+~ Test Unit Stepping added yet not completed succesfully.

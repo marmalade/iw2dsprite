@@ -11,9 +11,8 @@ files
 subproject
 {
 	iwutil
-	iwgx
-	iwgraphics
 	iw2d
+	iwresmanager
 }
 
 includepath .

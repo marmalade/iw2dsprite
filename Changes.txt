@@ -1,6 +1,11 @@
 - What does Test Unit X completed?
   The test was completed by implementing the code behind the class and refactorizing accordingly after design and coding of the test.
 
+8.4.2011 - It's been a long time!
++ Flip, Rotate, Center
++ Better testing with TUT Framework (yet I'm still a newbie to this!)
+! There's somewhat of a bug in the tests that I'm yet to understand why happens.
+
 07.15.2011
 ~ Modified project folder structure
 ~ Modified Iw2DSprite main .mkb project to .mkf subproject

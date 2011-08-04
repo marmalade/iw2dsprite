@@ -1,0 +1,19 @@
+#!/usr/bin/env mkb
+
+files
+{
+	(./tut)
+	tut.hpp
+	tut_assert.hpp
+	tut_console_reporter.hpp
+	tut_cppunit_reporter.hpp
+	tut_exception.hpp
+	tut_posix.hpp
+	tut_reporter.hpp
+	tut_restartable.hpp
+	tut_result.hpp
+	tut_runner.hpp
+	tut_xml_reporter.hpp
+}
+
+includepath ./tut

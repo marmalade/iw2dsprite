@@ -1,0 +1,14 @@
+files
+{
+	(.)
+	SpriteTest.cpp
+	MainTest.cpp	
+}
+
+subprojects
+{
+	../Iw2DSprite
+	TUT
+}	
+
+includepath .

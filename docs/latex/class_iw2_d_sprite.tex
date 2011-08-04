@@ -1,0 +1,716 @@
+\hypertarget{class_iw2_d_sprite}{
+\section{Iw2DSprite Class Reference}
+\label{class_iw2_d_sprite}\index{Iw2DSprite@{Iw2DSprite}}
+}
+
+
+Animated sprite class.  
+
+
+
+
+{\ttfamily \#include $<$Iw2DSprite.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_iw2_d_sprite_a13e7bb9e4cf276a8634391ebfac8f65c}{Iw2DSprite} (CIwResGroup $\ast$pGroup, std::string pName, bool pLoop=true)
+\begin{DoxyCompactList}\small\item\em Parameterized constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_iw2_d_sprite_a09cc76bacd698f25ab0168a74565e671}{$\sim$Iw2DSprite} ()
+\begin{DoxyCompactList}\small\item\em Cleans up the object. \end{DoxyCompactList}\item 
+\hyperlink{class_iw2_d_sprite_ac22a662c231882f5fe1334d59d8d4af0}{Iw2DSprite} (\hyperlink{class_iw2_d_sprite}{Iw2DSprite} const \&pSprite)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_iw2_d_sprite}{Iw2DSprite} \& \hyperlink{class_iw2_d_sprite_aea789a36a92b82665153673fdea82761}{operator=} (\hyperlink{class_iw2_d_sprite}{Iw2DSprite} const \&pSprite)
+\begin{DoxyCompactList}\small\item\em Assignment operator. \end{DoxyCompactList}\item 
+bool \hyperlink{class_iw2_d_sprite_a5e5a538b9bcfddaf66175b4beb4a01da}{operator==} (\hyperlink{class_iw2_d_sprite}{Iw2DSprite} const \&pSprite) const 
+\begin{DoxyCompactList}\small\item\em Comparison operator. \end{DoxyCompactList}\item 
+bool \hyperlink{class_iw2_d_sprite_a039808be71b6fe20c020e1ee5d7e3f00}{Step} ()
+\begin{DoxyCompactList}\small\item\em Updated the sprite. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_a54d1bacc7b988701df9ce9b5df9fd033}{Loop} (bool pLoop)
+\begin{DoxyCompactList}\small\item\em Loop's or not? \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_ad74adfd5ffbbba3041988ae0e30a4b68}{toggleLoop} ()
+\begin{DoxyCompactList}\small\item\em Toggles looping. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_af46c9ecec08168e43f403cf720249a7c}{Stop} ()
+\begin{DoxyCompactList}\small\item\em Stops the animation. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_a7b56cd9de960748403d7469e1614c09b}{Play} ()
+\begin{DoxyCompactList}\small\item\em Starts the animation. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_a0759dd414a88ba342623b87cd61ecec0}{Resume} ()
+\begin{DoxyCompactList}\small\item\em Resumes the animation from were it was. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_ae156b0f5a3f94e6787a2c42b3f8cf976}{Pause} ()
+\begin{DoxyCompactList}\small\item\em Pauses the animation. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_adf293508fe0f9fce3e6f5a43aa97d258}{GoToFrame} (CIwSVec2 pFrame=CIwSVec2::g\_\-Zero)
+\begin{DoxyCompactList}\small\item\em Goes to the specified frame. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_a5f2f27a5c85257223c772d212f8c46b3}{Restart} ()
+\begin{DoxyCompactList}\small\item\em Restarts the animation. \end{DoxyCompactList}\item 
+bool \hyperlink{class_iw2_d_sprite_aba66c9e6013a775a064d3f4a7eccb904}{IsPaused} () const 
+\begin{DoxyCompactList}\small\item\em Has the animation paused? \end{DoxyCompactList}\item 
+bool \hyperlink{class_iw2_d_sprite_ab02cd446c020e9a96a62e5a0e9969e01}{IsStopped} () const 
+\begin{DoxyCompactList}\small\item\em Has the animation stopped? \end{DoxyCompactList}\item 
+bool \hyperlink{class_iw2_d_sprite_afb7a12d58e635bad98dfa2d17acc7d57}{IsLooping} () const 
+\begin{DoxyCompactList}\small\item\em Is the animation looping? \end{DoxyCompactList}\item 
+bool \hyperlink{class_iw2_d_sprite_ae2ef1f10822494b46681f1d2c7860164}{IsPlaying} () const 
+\begin{DoxyCompactList}\small\item\em Is the animation being played? \end{DoxyCompactList}\item 
+bool \hyperlink{class_iw2_d_sprite_af500464015fc62c1ed15f0006b7cb9b0}{IsBuilt} () const 
+\begin{DoxyCompactList}\small\item\em Is the object built? \end{DoxyCompactList}\item 
+CIwSVec2 \hyperlink{class_iw2_d_sprite_a3c892d5ea06d33d5ee567e289f222702}{IsFlipped} () const 
+\begin{DoxyCompactList}\small\item\em Is the object flipped? \end{DoxyCompactList}\item 
+int16 \hyperlink{class_iw2_d_sprite_a4aa6d6c50e7785128082ada62e51f3f8}{GetWidth} () const 
+\begin{DoxyCompactList}\small\item\em Spritesheet width. \end{DoxyCompactList}\item 
+int16 \hyperlink{class_iw2_d_sprite_a49d13e536edca20393eb94b84a791352}{GetHeigth} () const 
+\begin{DoxyCompactList}\small\item\em Spritesheet height. \end{DoxyCompactList}\item 
+int16 \hyperlink{class_iw2_d_sprite_aae02ace7d3b396e6970beb35336cf6ee}{GetMaxFrames} () const 
+\begin{DoxyCompactList}\small\item\em Get the maximum useful frame. \end{DoxyCompactList}\item 
+int16 \hyperlink{class_iw2_d_sprite_ad6b100b520d3292db3701b08d560fcfa}{GetEndFrame} () const 
+\begin{DoxyCompactList}\small\item\em Get the final frame. \end{DoxyCompactList}\item 
+CIwSVec2 \hyperlink{class_iw2_d_sprite_a047b73083dd168c92f7ba60607af13ed}{GetCurrentFrame} () const 
+\begin{DoxyCompactList}\small\item\em Get the current frame vector. \end{DoxyCompactList}\item 
+CIwSVec2 \hyperlink{class_iw2_d_sprite_a8fa97ea61f64088ab3f172f92d6b9280}{GetFrameSize} () const 
+\begin{DoxyCompactList}\small\item\em Get the frame size vector. \end{DoxyCompactList}\item 
+CIwSVec2 \hyperlink{class_iw2_d_sprite_ab96beb1b7c353aa260743950560e4f79}{GetFrameOffset} () const 
+\begin{DoxyCompactList}\small\item\em Get the frame offset vector. \end{DoxyCompactList}\item 
+std::string \hyperlink{class_iw2_d_sprite_af039c0ad2ec6ef5ae31600a0566a9020}{GetResourceName} () const 
+\begin{DoxyCompactList}\small\item\em Get the resource name string. \end{DoxyCompactList}\item 
+CIwResGroup $\ast$ \hyperlink{class_iw2_d_sprite_af14df748a953b1d5b82926587240064d}{GetResourceGroup} () const 
+\begin{DoxyCompactList}\small\item\em Get the resources group pointer. \end{DoxyCompactList}\item 
+const \hyperlink{class_iw2_d_sprite}{Iw2DSprite} $\ast$ \hyperlink{class_iw2_d_sprite_a758299ad3a137adcb5c2d21f70b194e0}{GetCopy} () const 
+\begin{DoxyCompactList}\small\item\em Pointer to const this. \end{DoxyCompactList}\item 
+iwangle \hyperlink{class_iw2_d_sprite_a64ae396e457f300fcef4de7ce242a79f}{GetAngle} () const 
+\begin{DoxyCompactList}\small\item\em Animation rotation. \end{DoxyCompactList}\item 
+CIwSVec2 \hyperlink{class_iw2_d_sprite_a2ba203171e9feb9a6c2c6d0b8155cb59}{GetCenter} () const 
+\begin{DoxyCompactList}\small\item\em Animation rotation Center. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_a50d09fd4a9a939ca5464cef76dd35068}{Rotate} (iwangle pRads)
+\begin{DoxyCompactList}\small\item\em Rotates the animation. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_a13b88f977be187015ddb7920e2c53c6c}{Center} (CIwSVec2 pCenter=CIwSVec2::g\_\-Zero)
+\begin{DoxyCompactList}\small\item\em Center the animation for rotation. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_a962579345fd56534e7584ecef3ed7fc3}{Flip} (CIwSVec2 pFlip=CIwSVec2::g\_\-Zero)
+\begin{DoxyCompactList}\small\item\em Flips the animation. \end{DoxyCompactList}\item 
+void \hyperlink{class_iw2_d_sprite_aa967136ec38fa03f9b650de6c16fbe30}{Render} (CIwSVec2 pPosition=CIwSVec2::g\_\-Zero)
+\begin{DoxyCompactList}\small\item\em Render the animation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Animated sprite class. 
+
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$
+
+\begin{DoxyDate}{Date}
+11/07/2011 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.1 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Leandro Ostera
+\end{DoxyAuthor}
+Animation class that features non-\/complete squared sprite sheets support. Includes basics functionality as stopping, pausing, go to frame, etc. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_iw2_d_sprite_a13e7bb9e4cf276a8634391ebfac8f65c}{
+\index{Iw2DSprite@{Iw2DSprite}!Iw2DSprite@{Iw2DSprite}}
+\index{Iw2DSprite@{Iw2DSprite}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Iw2DSprite}]{\setlength{\rightskip}{0pt plus 5cm}Iw2DSprite::Iw2DSprite (
+\begin{DoxyParamCaption}
+\item[{CIwResGroup $\ast$}]{pGroup, }
+\item[{std::string}]{pName, }
+\item[{bool}]{pLoop = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_a13e7bb9e4cf276a8634391ebfac8f65c}
+
+
+Parameterized constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pGroup} & the resource group inwhere to look for the resource \\
+\hline
+{\em pName} & the name of the resource to look up in the group \\
+\hline
+{\em pLoop} & whether the animation sohuld loop (true) or not (false\\
+\hline
+\end{DoxyParams}
+This is the main constructor. It initializes the following properties: \begin{DoxyItemize}
+\item {\ttfamily m\_\-Built}, false \item {\ttfamily m\_\-Offset}, CIwSVec2::g\_\-Zero (zero vector) \item {\ttfamily m\_\-CurrentFrame}, CIwSVec2::g\_\-Zero (zero vector) \item {\ttfamily m\_\-FrameCounter}, 0 (ZERO, integer value) \item {\ttfamily m\_\-DrawRect}, CIwSVec2::g\_\-Zero (zero vector) \item {\ttfamily m\_\-Pause}, false \item {\ttfamily m\_\-Stop}, false \item {\ttfamily m\_\-Loop}, pLoop \end{DoxyItemize}
+\hypertarget{class_iw2_d_sprite_a09cc76bacd698f25ab0168a74565e671}{
+\index{Iw2DSprite@{Iw2DSprite}!$\sim$Iw2DSprite@{$\sim$Iw2DSprite}}
+\index{$\sim$Iw2DSprite@{$\sim$Iw2DSprite}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{$\sim$Iw2DSprite}]{\setlength{\rightskip}{0pt plus 5cm}Iw2DSprite::$\sim$Iw2DSprite (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_a09cc76bacd698f25ab0168a74565e671}
+
+
+Cleans up the object. 
+
+Performs clean up of the asigned memory blocks. If the class has been succesfully built before, delete the sprite pointer as it is no longer needed. \hypertarget{class_iw2_d_sprite_ac22a662c231882f5fe1334d59d8d4af0}{
+\index{Iw2DSprite@{Iw2DSprite}!Iw2DSprite@{Iw2DSprite}}
+\index{Iw2DSprite@{Iw2DSprite}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Iw2DSprite}]{\setlength{\rightskip}{0pt plus 5cm}Iw2DSprite::Iw2DSprite (
+\begin{DoxyParamCaption}
+\item[{{\bf Iw2DSprite} const \&}]{pSprite}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_ac22a662c231882f5fe1334d59d8d4af0}
+
+
+Copy constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pSprite} & The sprite object to be copied\\
+\hline
+\end{DoxyParams}
+Copies the propierties of the parameter object into the object that is being constructed. It uses the overloaded operator = to such ends. Current object flag m\_\-Built will be set along with flag m\_\-Copy. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_iw2_d_sprite_a13b88f977be187015ddb7920e2c53c6c}{
+\index{Iw2DSprite@{Iw2DSprite}!Center@{Center}}
+\index{Center@{Center}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Center}]{\setlength{\rightskip}{0pt plus 5cm}m\_\-Center rotation Iw2DSprite::Center (
+\begin{DoxyParamCaption}
+\item[{CIwSVec2}]{pCenter = {\ttfamily CIwSVec2::g\_\-Zero}}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_a13b88f977be187015ddb7920e2c53c6c}
+
+
+Center the animation for rotation. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em pCenter} & integer vector for animation center.\\
+\hline
+\end{DoxyParams}
+Centers the animation at the given coordinates for rotation. \hypertarget{class_iw2_d_sprite_a962579345fd56534e7584ecef3ed7fc3}{
+\index{Iw2DSprite@{Iw2DSprite}!Flip@{Flip}}
+\index{Flip@{Flip}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Flip}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::Flip (
+\begin{DoxyParamCaption}
+\item[{CIwSVec2}]{pFlip = {\ttfamily CIwSVec2::g\_\-Zero}}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_a962579345fd56534e7584ecef3ed7fc3}
+
+
+Flips the animation. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em pFlip} & CIwSVec2 vector for flipping on X and/or Y axis.\\
+\hline
+\end{DoxyParams}
+Flips the animation according the the pFlip vector. If the current Flip vector equals the passed Flip vector, animation is unflipped. \hypertarget{class_iw2_d_sprite_a64ae396e457f300fcef4de7ce242a79f}{
+\index{Iw2DSprite@{Iw2DSprite}!GetAngle@{GetAngle}}
+\index{GetAngle@{GetAngle}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetAngle}]{\setlength{\rightskip}{0pt plus 5cm}iwangle Iw2DSprite::GetAngle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a64ae396e457f300fcef4de7ce242a79f}
+
+
+Animation rotation. 
+
+\begin{DoxyReturn}{Returns}
+Returns the current angle in radians. 
+\end{DoxyReturn}
+\hypertarget{class_iw2_d_sprite_a2ba203171e9feb9a6c2c6d0b8155cb59}{
+\index{Iw2DSprite@{Iw2DSprite}!GetCenter@{GetCenter}}
+\index{GetCenter@{GetCenter}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetCenter}]{\setlength{\rightskip}{0pt plus 5cm}CIwSVec2 Iw2DSprite::GetCenter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a2ba203171e9feb9a6c2c6d0b8155cb59}
+
+
+Animation rotation Center. 
+
+\begin{DoxyReturn}{Returns}
+Returns the current Center as a vector. 
+\end{DoxyReturn}
+\hypertarget{class_iw2_d_sprite_a758299ad3a137adcb5c2d21f70b194e0}{
+\index{Iw2DSprite@{Iw2DSprite}!GetCopy@{GetCopy}}
+\index{GetCopy@{GetCopy}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetCopy}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Iw2DSprite}$\ast$ Iw2DSprite::GetCopy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a758299ad3a137adcb5c2d21f70b194e0}
+
+
+Pointer to const this. 
+
+\begin{DoxyReturn}{Returns}
+const Iw2DSprite$\ast$
+\end{DoxyReturn}
+Returns a pointer to a const \hyperlink{class_iw2_d_sprite}{Iw2DSprite} (which is this). \hypertarget{class_iw2_d_sprite_a047b73083dd168c92f7ba60607af13ed}{
+\index{Iw2DSprite@{Iw2DSprite}!GetCurrentFrame@{GetCurrentFrame}}
+\index{GetCurrentFrame@{GetCurrentFrame}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetCurrentFrame}]{\setlength{\rightskip}{0pt plus 5cm}CIwSVec2 Iw2DSprite::GetCurrentFrame (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a047b73083dd168c92f7ba60607af13ed}
+
+
+Get the current frame vector. 
+
+\begin{DoxyReturn}{Returns}
+CIwSVec2
+\end{DoxyReturn}
+Returns current frame row and column as a 2D integer vector. \hypertarget{class_iw2_d_sprite_ad6b100b520d3292db3701b08d560fcfa}{
+\index{Iw2DSprite@{Iw2DSprite}!GetEndFrame@{GetEndFrame}}
+\index{GetEndFrame@{GetEndFrame}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetEndFrame}]{\setlength{\rightskip}{0pt plus 5cm}int16 Iw2DSprite::GetEndFrame (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_ad6b100b520d3292db3701b08d560fcfa}
+
+
+Get the final frame. 
+
+\begin{DoxyReturn}{Returns}
+int16
+\end{DoxyReturn}
+Returns the last frame number as integer. \hypertarget{class_iw2_d_sprite_ab96beb1b7c353aa260743950560e4f79}{
+\index{Iw2DSprite@{Iw2DSprite}!GetFrameOffset@{GetFrameOffset}}
+\index{GetFrameOffset@{GetFrameOffset}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetFrameOffset}]{\setlength{\rightskip}{0pt plus 5cm}CIwSVec2 Iw2DSprite::GetFrameOffset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_ab96beb1b7c353aa260743950560e4f79}
+
+
+Get the frame offset vector. 
+
+\begin{DoxyReturn}{Returns}
+CIwSVec2
+\end{DoxyReturn}
+Returns x and y offset of each frame as 2D integer vector. \hypertarget{class_iw2_d_sprite_a8fa97ea61f64088ab3f172f92d6b9280}{
+\index{Iw2DSprite@{Iw2DSprite}!GetFrameSize@{GetFrameSize}}
+\index{GetFrameSize@{GetFrameSize}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetFrameSize}]{\setlength{\rightskip}{0pt plus 5cm}CIwSVec2 Iw2DSprite::GetFrameSize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a8fa97ea61f64088ab3f172f92d6b9280}
+
+
+Get the frame size vector. 
+
+\begin{DoxyReturn}{Returns}
+CIwSVec2
+\end{DoxyReturn}
+Returns frame size as 2D integer vector. \hypertarget{class_iw2_d_sprite_a49d13e536edca20393eb94b84a791352}{
+\index{Iw2DSprite@{Iw2DSprite}!GetHeigth@{GetHeigth}}
+\index{GetHeigth@{GetHeigth}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetHeigth}]{\setlength{\rightskip}{0pt plus 5cm}int16 Iw2DSprite::GetHeigth (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a49d13e536edca20393eb94b84a791352}
+
+
+Spritesheet height. 
+
+\begin{DoxyReturn}{Returns}
+int16
+\end{DoxyReturn}
+Returns current spritesheet height as integer. \hypertarget{class_iw2_d_sprite_aae02ace7d3b396e6970beb35336cf6ee}{
+\index{Iw2DSprite@{Iw2DSprite}!GetMaxFrames@{GetMaxFrames}}
+\index{GetMaxFrames@{GetMaxFrames}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetMaxFrames}]{\setlength{\rightskip}{0pt plus 5cm}int16 Iw2DSprite::GetMaxFrames (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_aae02ace7d3b396e6970beb35336cf6ee}
+
+
+Get the maximum useful frame. 
+
+\begin{DoxyReturn}{Returns}
+int16
+\end{DoxyReturn}
+Returns the maximum amount of useful frames in the spritesheet that is, ignoring blank frames at the end of the sheet, as integer. \hypertarget{class_iw2_d_sprite_af14df748a953b1d5b82926587240064d}{
+\index{Iw2DSprite@{Iw2DSprite}!GetResourceGroup@{GetResourceGroup}}
+\index{GetResourceGroup@{GetResourceGroup}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetResourceGroup}]{\setlength{\rightskip}{0pt plus 5cm}CIwResGroup$\ast$ Iw2DSprite::GetResourceGroup (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_af14df748a953b1d5b82926587240064d}
+
+
+Get the resources group pointer. 
+
+\begin{DoxyReturn}{Returns}
+CIwResGroup$\ast$
+\end{DoxyReturn}
+Returns a pointer to the current resource group. \hypertarget{class_iw2_d_sprite_af039c0ad2ec6ef5ae31600a0566a9020}{
+\index{Iw2DSprite@{Iw2DSprite}!GetResourceName@{GetResourceName}}
+\index{GetResourceName@{GetResourceName}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetResourceName}]{\setlength{\rightskip}{0pt plus 5cm}std::string Iw2DSprite::GetResourceName (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_af039c0ad2ec6ef5ae31600a0566a9020}
+
+
+Get the resource name string. 
+
+\begin{DoxyReturn}{Returns}
+std::string
+\end{DoxyReturn}
+Returns a copy of the resource name as a std::string. \hypertarget{class_iw2_d_sprite_a4aa6d6c50e7785128082ada62e51f3f8}{
+\index{Iw2DSprite@{Iw2DSprite}!GetWidth@{GetWidth}}
+\index{GetWidth@{GetWidth}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GetWidth}]{\setlength{\rightskip}{0pt plus 5cm}int16 Iw2DSprite::GetWidth (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a4aa6d6c50e7785128082ada62e51f3f8}
+
+
+Spritesheet width. 
+
+\begin{DoxyReturn}{Returns}
+int16
+\end{DoxyReturn}
+Returns current spritesheet width as integer. \hypertarget{class_iw2_d_sprite_adf293508fe0f9fce3e6f5a43aa97d258}{
+\index{Iw2DSprite@{Iw2DSprite}!GoToFrame@{GoToFrame}}
+\index{GoToFrame@{GoToFrame}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{GoToFrame}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::GoToFrame (
+\begin{DoxyParamCaption}
+\item[{CIwSVec2}]{pFrame = {\ttfamily CIwSVec2::g\_\-Zero}}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_adf293508fe0f9fce3e6f5a43aa97d258}
+
+
+Goes to the specified frame. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pFrame} & CIwSVec2 2D integer vector indicating row and column of the frame to set as current\\
+\hline
+\end{DoxyParams}
+Ff not specified a vector, returns to first frame, otherwise sets f as current frame. \hypertarget{class_iw2_d_sprite_af500464015fc62c1ed15f0006b7cb9b0}{
+\index{Iw2DSprite@{Iw2DSprite}!IsBuilt@{IsBuilt}}
+\index{IsBuilt@{IsBuilt}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{IsBuilt}]{\setlength{\rightskip}{0pt plus 5cm}bool Iw2DSprite::IsBuilt (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_af500464015fc62c1ed15f0006b7cb9b0}
+
+
+Is the object built? 
+
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+True if the sprite has been built, false otherwise. \hypertarget{class_iw2_d_sprite_a3c892d5ea06d33d5ee567e289f222702}{
+\index{Iw2DSprite@{Iw2DSprite}!IsFlipped@{IsFlipped}}
+\index{IsFlipped@{IsFlipped}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{IsFlipped}]{\setlength{\rightskip}{0pt plus 5cm}CIwSVec2 Iw2DSprite::IsFlipped (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a3c892d5ea06d33d5ee567e289f222702}
+
+
+Is the object flipped? 
+
+\begin{DoxyReturn}{Returns}
+CIwSVec2
+\end{DoxyReturn}
+CIwSVec2 boolean vector with (1,0) for flipped on X, (0,1) for flipped on Y, (1,1) for flipped on both, and (0,0) for not flipped at all. \hypertarget{class_iw2_d_sprite_afb7a12d58e635bad98dfa2d17acc7d57}{
+\index{Iw2DSprite@{Iw2DSprite}!IsLooping@{IsLooping}}
+\index{IsLooping@{IsLooping}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{IsLooping}]{\setlength{\rightskip}{0pt plus 5cm}bool Iw2DSprite::IsLooping (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_afb7a12d58e635bad98dfa2d17acc7d57}
+
+
+Is the animation looping? 
+
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+True if it is looping, false otherwise. \hypertarget{class_iw2_d_sprite_aba66c9e6013a775a064d3f4a7eccb904}{
+\index{Iw2DSprite@{Iw2DSprite}!IsPaused@{IsPaused}}
+\index{IsPaused@{IsPaused}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{IsPaused}]{\setlength{\rightskip}{0pt plus 5cm}bool Iw2DSprite::IsPaused (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_aba66c9e6013a775a064d3f4a7eccb904}
+
+
+Has the animation paused? 
+
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+True if it is paused, false otherwise. \hypertarget{class_iw2_d_sprite_ae2ef1f10822494b46681f1d2c7860164}{
+\index{Iw2DSprite@{Iw2DSprite}!IsPlaying@{IsPlaying}}
+\index{IsPlaying@{IsPlaying}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{IsPlaying}]{\setlength{\rightskip}{0pt plus 5cm}bool Iw2DSprite::IsPlaying (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_ae2ef1f10822494b46681f1d2c7860164}
+
+
+Is the animation being played? 
+
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+True if it is not paused and not stopped, false otherwise. \hypertarget{class_iw2_d_sprite_ab02cd446c020e9a96a62e5a0e9969e01}{
+\index{Iw2DSprite@{Iw2DSprite}!IsStopped@{IsStopped}}
+\index{IsStopped@{IsStopped}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{IsStopped}]{\setlength{\rightskip}{0pt plus 5cm}bool Iw2DSprite::IsStopped (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_ab02cd446c020e9a96a62e5a0e9969e01}
+
+
+Has the animation stopped? 
+
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+True if it is stopped, false otherwise. \hypertarget{class_iw2_d_sprite_a54d1bacc7b988701df9ce9b5df9fd033}{
+\index{Iw2DSprite@{Iw2DSprite}!Loop@{Loop}}
+\index{Loop@{Loop}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Loop}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::Loop (
+\begin{DoxyParamCaption}
+\item[{bool}]{pLoop}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a54d1bacc7b988701df9ce9b5df9fd033}
+
+
+Loop's or not? 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pLoop} & true for looping, false otherwise\\
+\hline
+\end{DoxyParams}
+Set loop on or off \hypertarget{class_iw2_d_sprite_aea789a36a92b82665153673fdea82761}{
+\index{Iw2DSprite@{Iw2DSprite}!operator=@{operator=}}
+\index{operator=@{operator=}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Iw2DSprite} \& Iw2DSprite::operator= (
+\begin{DoxyParamCaption}
+\item[{{\bf Iw2DSprite} const \&}]{pSprite}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_aea789a36a92b82665153673fdea82761}
+
+
+Assignment operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pSprite} & The sprite object to be assigned (copied)\\
+\hline
+\end{DoxyParams}
+Copies all data from the sprite parameter object, incluiding the pointer to the spritesheet. \hypertarget{class_iw2_d_sprite_a5e5a538b9bcfddaf66175b4beb4a01da}{
+\index{Iw2DSprite@{Iw2DSprite}!operator==@{operator==}}
+\index{operator==@{operator==}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool Iw2DSprite::operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Iw2DSprite} const \&}]{pSprite}
+\end{DoxyParamCaption}
+) const}}
+\label{class_iw2_d_sprite_a5e5a538b9bcfddaf66175b4beb4a01da}
+
+
+Comparison operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pSprite1} & A sprite object to compare against pSprite2 \\
+\hline
+{\em pSprite21} & A sprite object to compare against pSprite1\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+Compares both sprites and returns true if are equal, or false if not. \hypertarget{class_iw2_d_sprite_ae156b0f5a3f94e6787a2c42b3f8cf976}{
+\index{Iw2DSprite@{Iw2DSprite}!Pause@{Pause}}
+\index{Pause@{Pause}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Pause}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::Pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_ae156b0f5a3f94e6787a2c42b3f8cf976}
+
+
+Pauses the animation. 
+
+Pauses the animation at the current frame. \hypertarget{class_iw2_d_sprite_a7b56cd9de960748403d7469e1614c09b}{
+\index{Iw2DSprite@{Iw2DSprite}!Play@{Play}}
+\index{Play@{Play}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Play}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::Play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_a7b56cd9de960748403d7469e1614c09b}
+
+
+Starts the animation. 
+
+Starts the animation from the current frame. \hypertarget{class_iw2_d_sprite_aa967136ec38fa03f9b650de6c16fbe30}{
+\index{Iw2DSprite@{Iw2DSprite}!Render@{Render}}
+\index{Render@{Render}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Render}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::Render (
+\begin{DoxyParamCaption}
+\item[{CIwSVec2}]{pPosition = {\ttfamily CIwSVec2::g\_\-Zero}}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_aa967136ec38fa03f9b650de6c16fbe30}
+
+
+Render the animation. 
+
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em pPosition} & (x,y) 2D integer vector\\
+\hline
+\end{DoxyParams}
+Draws a region of the image starting at m\_\-DrawRect and finishing at m\_\-DrawRect+m\_\-FrameSize, at the coordinates passed by pPosition. \hypertarget{class_iw2_d_sprite_a5f2f27a5c85257223c772d212f8c46b3}{
+\index{Iw2DSprite@{Iw2DSprite}!Restart@{Restart}}
+\index{Restart@{Restart}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Restart}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::Restart (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_a5f2f27a5c85257223c772d212f8c46b3}
+
+
+Restarts the animation. 
+
+Restarts the animation by returning to the first frame. \hypertarget{class_iw2_d_sprite_a0759dd414a88ba342623b87cd61ecec0}{
+\index{Iw2DSprite@{Iw2DSprite}!Resume@{Resume}}
+\index{Resume@{Resume}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Resume}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::Resume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_a0759dd414a88ba342623b87cd61ecec0}
+
+
+Resumes the animation from were it was. 
+
+If animation was paused, it resumes playing from the current frame. \hypertarget{class_iw2_d_sprite_a50d09fd4a9a939ca5464cef76dd35068}{
+\index{Iw2DSprite@{Iw2DSprite}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Rotate}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::Rotate (
+\begin{DoxyParamCaption}
+\item[{iwangle}]{pRads}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_a50d09fd4a9a939ca5464cef76dd35068}
+
+
+Rotates the animation. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em pRads} & Angle in radians (32-\/bits integer)\\
+\hline
+\end{DoxyParams}
+Rotates the animation by pRads radians counterclockwise. \hypertarget{class_iw2_d_sprite_a039808be71b6fe20c020e1ee5d7e3f00}{
+\index{Iw2DSprite@{Iw2DSprite}!Step@{Step}}
+\index{Step@{Step}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Step}]{\setlength{\rightskip}{0pt plus 5cm}bool Iw2DSprite::Step (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_a039808be71b6fe20c020e1ee5d7e3f00}
+
+
+Updated the sprite. 
+
+\begin{DoxyReturn}{Returns}
+bool True if animation is within range, false if animation is about to restart/finish depending on looping
+\end{DoxyReturn}
+Iterates through the sprite sheet as if it was a matrix by incrementing m\_\-CurrentFrame.x (if not paused nor stopped) untill it is equal or greater than (note that it will never be greater -\/or at least shouldn't!) then it goes back to zero and m\_\-CurrentFrame.y is incremented. m\_\-CurrentFrame(x,y) works as indexes for the sprites in the sheet: x is for the column, y for the rows. Additionally, in case that the sprites has / uses less than x$\ast$y frames in the sheet, there is max frames number and a frame counter used to check for it. Later, the drawing rect is updated. \hypertarget{class_iw2_d_sprite_af46c9ecec08168e43f403cf720249a7c}{
+\index{Iw2DSprite@{Iw2DSprite}!Stop@{Stop}}
+\index{Stop@{Stop}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{Stop}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::Stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_iw2_d_sprite_af46c9ecec08168e43f403cf720249a7c}
+
+
+Stops the animation. 
+
+Stops the animation and returns to first frame. \hypertarget{class_iw2_d_sprite_ad74adfd5ffbbba3041988ae0e30a4b68}{
+\index{Iw2DSprite@{Iw2DSprite}!toggleLoop@{toggleLoop}}
+\index{toggleLoop@{toggleLoop}!Iw2DSprite@{Iw2DSprite}}
+\subsubsection[{toggleLoop}]{\setlength{\rightskip}{0pt plus 5cm}void Iw2DSprite::toggleLoop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_iw2_d_sprite_ad74adfd5ffbbba3041988ae0e30a4b68}
+
+
+Toggles looping. 
+
+Switches looping state on if off and off if on. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Iw2DSprite.h\item 
+Iw2DSprite.cpp\end{DoxyCompactItemize}

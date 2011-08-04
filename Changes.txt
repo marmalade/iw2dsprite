@@ -2,6 +2,7 @@
   The test was completed by implementing the code behind the class and refactorizing accordingly after design and coding of the test.
 
 8.4.2011 - It's been a long time!
++ Added some Doxy docs.
 + Flip, Rotate, Center
 + Better testing with TUT Framework (yet I'm still a newbie to this!)
 ! There's somewhat of a bug in the tests that I'm yet to understand why happens.
